@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The 0% Vegan Community</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/index.css">
+    <script src="static/index.js" type="module" defer></script>
+</head>
+<body>
+    <div id="hero-wrapper">
+        <section class="hero main-hero is-dark is-fullheight p-5"
+                :style="{backgroundImage: `url(${data.src})`}">
+
+            <div class="columns">
+                <div class="column is-7 is-5-desktop">
+                    <div class="frosted-card has-text-white p-5">
+                        <div class="card-head">
+                            <img class="main-logo" src="static/img/0vlogo_alpha.png" alt="zero percent vegan logo">
+
+                            <p class="mt-6 is-size-4 has-text-centered">
+                                0% Vegan is a community of ex-vegans, homesteaders, hunters, and people interested in a
+                                sustainable meat-based lifestyle.
+                            </p>
+
+                            <p class="mt-5 is-size-4 has-text-centered">
+                                We are against the unhealthy Vegan diet and oppose their ideology.
+                            </p>
+                        </div>
+
+                        <div class="mt-5">
+                            <a class="button is-discord is-radiusless"
+                               href="https://discord.com/invite/umYG8KbpDz">
+                                <span class="icon">
+                                    <img src="static/img/discord.svg">
+                                </span>
+                                Discord
+                            </a>
+
+                            <a class="button is-youtube is-radiusless"
+                               href="https://www.youtube.com/channel/UC5o6RheQ-PHvJLflxtysGzg">
+                                <span class="icon">
+                                    <img src="static/img/youtube.svg">
+                                </span>
+                                Youtube
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <p class="m-2">Credit: {{ data.credit }} on Unsplash</p>
+    </div>
+</body>
+</html>
