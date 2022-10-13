@@ -1,5 +1,5 @@
 import axios from 'https://cdn.skypack.dev/axios@0?min'
-import {createApp} from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+import {createApp} from 'https://unpkg.com/vue@3/dist/vue.esm-browser.prod.js'
 
 const hero = createApp({
     data() {
